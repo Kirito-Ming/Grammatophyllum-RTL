@@ -5,7 +5,6 @@ Grammatophyllum
 /***************FBI WARNNING****************/
 
 Is Secret Project!
-Diao !
 =======
 /*****************FBI WARNING****************/
 
