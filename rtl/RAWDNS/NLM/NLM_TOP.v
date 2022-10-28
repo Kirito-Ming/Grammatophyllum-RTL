@@ -15,10 +15,14 @@ module NLM_TOP #(parameter  DATA_WIDTH      =   16,
                     valid_i,
                     en_i,
                     data_i,
+                    frame_sync_i,
+                    line_sync_i,
                     config_addr_i,
                     config_data_i,
                     config_en,
                     data_o,
+                    frame_sync_o,
+                    line_sync_o,
                     valid_o);
     
     input                                           clk;
