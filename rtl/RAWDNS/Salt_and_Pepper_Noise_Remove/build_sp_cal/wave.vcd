@@ -1,0 +1,630 @@
+$date
+	Sat Nov 12 19:55:24 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_sp_noise_removal $end
+$var wire 1 ! en_o $end
+$var wire 12 " data_o [11:0] $end
+$var reg 1 # clk $end
+$var reg 60 $ data_i [59:0] $end
+$var reg 1 % en_i $end
+$var reg 1 & rst_n $end
+$scope module inst0 $end
+$var wire 1 # clk $end
+$var wire 60 ' data_i [59:0] $end
+$var wire 1 % en_i $end
+$var wire 1 & rst_n $end
+$var wire 15 ( thre_w [14:0] $end
+$var wire 12 ) test2 [11:0] $end
+$var wire 12 * test1 [11:0] $end
+$var wire 12 + intp_cliped [11:0] $end
+$var wire 13 , grad_min [12:0] $end
+$var reg 12 - center_tap1 [11:0] $end
+$var reg 12 . center_tap2 [11:0] $end
+$var reg 13 / d_intp1_r1 [12:0] $end
+$var reg 13 0 d_intp1_r2 [12:0] $end
+$var reg 12 1 data_o [11:0] $end
+$var reg 1 ! en_o $end
+$var reg 13 2 grad_d_r [12:0] $end
+$var reg 12 3 grad_d_r1 [11:0] $end
+$var reg 12 4 grad_d_r2 [11:0] $end
+$var reg 13 5 grad_h_r [12:0] $end
+$var reg 12 6 grad_h_r1 [11:0] $end
+$var reg 12 7 grad_h_r2 [11:0] $end
+$var reg 13 8 grad_v_r [12:0] $end
+$var reg 12 9 grad_v_r1 [11:0] $end
+$var reg 12 : grad_v_r2 [11:0] $end
+$var reg 13 ; grad_z_r [12:0] $end
+$var reg 12 < grad_z_r1 [11:0] $end
+$var reg 12 = grad_z_r2 [11:0] $end
+$var reg 13 > h_intp1_r1 [12:0] $end
+$var reg 13 ? h_intp1_r2 [12:0] $end
+$var reg 13 @ intp_d_r [12:0] $end
+$var reg 13 A intp_h_r [12:0] $end
+$var reg 13 B intp_result [12:0] $end
+$var reg 13 C intp_v_r [12:0] $end
+$var reg 13 D intp_z_r [12:0] $end
+$var reg 13 E v_intp1_r1 [12:0] $end
+$var reg 13 F v_intp1_r2 [12:0] $end
+$var reg 13 G z_intp1_r1 [12:0] $end
+$var reg 13 H z_intp1_r2 [12:0] $end
+$scope function abs $end
+$var reg 12 I op1 [11:0] $end
+$var reg 12 J op2 [11:0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope begin genblk1[4] $end
+$upscope $end
+$scope begin genblk1[5] $end
+$upscope $end
+$scope begin genblk4[0] $end
+$upscope $end
+$scope begin genblk4[1] $end
+$upscope $end
+$scope begin genblk4[2] $end
+$upscope $end
+$scope begin genblk4[3] $end
+$upscope $end
+$scope begin genblk4[4] $end
+$upscope $end
+$scope begin out_refresh_loop[0] $end
+$scope begin inner_refresh_loop[1] $end
+$upscope $end
+$scope begin inner_refresh_loop[2] $end
+$upscope $end
+$scope begin inner_refresh_loop[3] $end
+$upscope $end
+$scope begin inner_refresh_loop[4] $end
+$upscope $end
+$scope begin inner_refresh_loop[5] $end
+$upscope $end
+$upscope $end
+$scope begin out_refresh_loop[1] $end
+$scope begin inner_refresh_loop[1] $end
+$upscope $end
+$scope begin inner_refresh_loop[2] $end
+$upscope $end
+$scope begin inner_refresh_loop[3] $end
+$upscope $end
+$scope begin inner_refresh_loop[4] $end
+$upscope $end
+$scope begin inner_refresh_loop[5] $end
+$upscope $end
+$upscope $end
+$scope begin out_refresh_loop[2] $end
+$scope begin inner_refresh_loop[1] $end
+$upscope $end
+$scope begin inner_refresh_loop[2] $end
+$upscope $end
+$scope begin inner_refresh_loop[3] $end
+$upscope $end
+$scope begin inner_refresh_loop[4] $end
+$upscope $end
+$scope begin inner_refresh_loop[5] $end
+$upscope $end
+$upscope $end
+$scope begin out_refresh_loop[3] $end
+$scope begin inner_refresh_loop[1] $end
+$upscope $end
+$scope begin inner_refresh_loop[2] $end
+$upscope $end
+$scope begin inner_refresh_loop[3] $end
+$upscope $end
+$scope begin inner_refresh_loop[4] $end
+$upscope $end
+$scope begin inner_refresh_loop[5] $end
+$upscope $end
+$upscope $end
+$scope begin out_refresh_loop[4] $end
+$scope begin inner_refresh_loop[1] $end
+$upscope $end
+$scope begin inner_refresh_loop[2] $end
+$upscope $end
+$scope begin inner_refresh_loop[3] $end
+$upscope $end
+$scope begin inner_refresh_loop[4] $end
+$upscope $end
+$scope begin inner_refresh_loop[5] $end
+$upscope $end
+$upscope $end
+$scope module inst1 $end
+$var wire 13 K op1 [12:0] $end
+$var wire 13 L op2 [12:0] $end
+$var wire 13 M op3 [12:0] $end
+$var wire 13 N op4 [12:0] $end
+$var wire 13 O min [12:0] $end
+$var wire 13 P comp_result2_w [12:0] $end
+$var wire 13 Q comp_result1_w [12:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 Q
+b0 P
+b0 O
+b0 N
+b0 M
+b0 L
+b0 K
+bx J
+bx I
+b0 H
+b0 G
+b0 F
+b0 E
+b0 D
+b0 C
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+b0 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+b0 2
+bx 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+bx )
+b1010101000 (
+bx '
+0&
+0%
+bx $
+0#
+bx "
+0!
+$end
+#10000
+1#
+#20000
+0#
+#30000
+1#
+#40000
+0#
+#50000
+1#
+#60000
+0#
+#70000
+1#
+#80000
+0#
+#90000
+1#
+#100000
+0#
+1&
+#110000
+b0 I
+b0 J
+1#
+#120000
+0#
+#130000
+1#
+#140000
+0#
+#150000
+1#
+#160000
+0#
+#170000
+1#
+#180000
+0#
+#190000
+1#
+#200000
+0#
+#210000
+b1010111101 )
+1#
+b100101011001011101001001000101110001101111111001010111101 $
+b100101011001011101001001000101110001101111111001010111101 '
+1%
+#220000
+0#
+#230000
+b1000101110 6
+b1010111101 3
+b100101011 <
+b100010111 >
+b101011111 /
+b10010110 G
+b0 I
+b0 J
+b1011011011 )
+1#
+b1101001101000010001000001101001011000100100110001011011011 $
+b1101001101000010001000001101001011000100100110001011011011 '
+#240000
+0#
+#250000
+b100101011 P
+b10010110 D
+b101011111 @
+b100010111 A
+b100101011 ;
+b100101011 N
+b1010111101 2
+b1010111101 M
+b1000101110 5
+b1000101110 K
+b101110101 H
+b110100111 G
+b111000000 0
+b101101110 /
+b100010111 ?
+b110100110 >
+b1011101001 =
+b1101001101 <
+b1101111111 4
+b1011011011 3
+b1000101110 7
+b1101001011 6
+b1011101001 J
+b0 I
+b1100100001 )
+1#
+b1110010001000110101010111111111111001001111011001100100001 $
+b1110010001000110101010111111111111001001111011001100100001 '
+#260000
+0#
+#270000
+b11000110110 P
+b1000101110 -
+b1101001011 7
+b111111111111 6
+b10010110 :
+b110010010 9
+b100100110 4
+b1100100001 3
+b10001000 =
+b1110010001 <
+b110100110 ?
+b100000000000 >
+b1001011 F
+b111110100 E
+b10010011 0
+b110010001 /
+b1000100 H
+b111001001 G
+b11000110110 ;
+b11000110110 N
+b11001011010 2
+b11001011010 M
+b10101111001 5
+b10101111001 K
+b1100011100 D
+b1100101110 @
+b1010111101 A
+b1101001011 I
+b0 J
+1#
+b1110010001000110101010000010110010001001111011001100100001 $
+b1110010001000110101010000010110010001001111011001100100001 '
+#280000
+0#
+#290000
+b1000111111 +
+b1000111111 B
+b1000101000 ,
+b1000101000 O
+b10000011001 P
+b1000101000 Q
+b1010111101 *
+b1000001101 D
+b1000100100 @
+b1000111111 C
+b100110100110 A
+b10000011001 ;
+b10000011001 N
+b10001000111 2
+b10001000111 M
+b1000101000 8
+b1000101000 L
+b1001101001010 5
+b1001101001010 K
+b11101011 H
+b110111 0
+b1001111 F
+b1100010100 E
+b11011101001 ?
+b1011001 >
+b111010101 =
+b1101110 4
+b10011110 :
+b1110010 9
+b110111010001 7
+b10110010 6
+b1000101110 .
+b1101001011 -
+b110101010 J
+b1101111111 I
+b10001000 )
+1#
+b10001011000111110000011000111100100111011111000010001000 $
+b10001011000111110000011000111100100111011111000010001000 '
+#300000
+0#
+#310000
+b1101100011 +
+b100010000 ,
+b100010000 O
+b1011011011 *
+b1110001111 P
+b100010000 Q
+b1101100011 B
+b1101001011 .
+b111111111111 -
+b1010011001 7
+b10000001110 6
+b11010001 :
+b1110000 9
+b111110011 4
+b10100011 3
+b10000100 =
+b1000110010 <
+b101001101 ?
+b10000110101 >
+b1101001 F
+b1101011001 E
+b11111010 0
+b11011010 /
+b1000010 H
+b110100100 G
+b10101100110 ;
+b10101100110 N
+b1110001111 2
+b1110001111 M
+b100010000 8
+b100010000 L
+b111010000011 5
+b111010000011 K
+b1010110100 D
+b111001000 @
+b1101100011 C
+b11101000010 A
+b1101001011 J
+b10110010 I
+1#
+#320000
+0#
+#330000
+b1111000010 +
+b101000001 ,
+b101000001 O
+b1010010110 P
+b101000001 Q
+b1111000010 B
+b1111000010 "
+b1111000010 1
+b1100100001 *
+b111100110 D
+b111010100 @
+b1111000010 C
+b10110000010 A
+b1010110110 ;
+b1010110110 N
+b1010010110 2
+b1010010110 M
+b101000001 8
+b101000001 L
+b11010100111 5
+b11010100111 K
+b1000110 H
+b110110011 G
+b10000011011 0
+b111101011 /
+b10011100010 ?
+b10011000100 >
+b10001011 =
+b1001010000 <
+b100000110101 4
+b1011000101 3
+b100111000011 7
+b1011110001 6
+b111111111111 .
+b10110010 -
+1!
+b111111111111 J
+b1111000010 I
+1#
+#340000
+0#
+#350000
+b10110010 "
+b10110010 1
+b1011011011 P
+b10110010 .
+b11000111100 -
+b10110001010 7
+b100111000011 6
+b11111101111 :
+b11 9
+b1100001001 3
+b1010010110 <
+b1011000101 ?
+b101100011110 >
+b1111111000 F
+b10001010 E
+b1000001101 /
+b111010110 G
+b1011011011 ;
+b1011011011 N
+b101011111010 2
+b101011111010 M
+b110010110100 5
+b110010110100 K
+b111111001 D
+b11000000110 @
+b100110100110 A
+b1111000010 I
+b10110010 J
+1#
+#360000
+0#
+#370000
+b1000011100 +
+b1100100001 ,
+b1100100001 O
+b1100100001 P
+b11111110010 Q
+b1000011100 B
+b11000111100 "
+b11000111100 1
+b10001000 *
+b1000011100 D
+b11000101000 @
+b10010000010 C
+b110111100011 A
+b1100100001 ;
+b1100100001 N
+b101100111110 2
+b101100111110 M
+b11111110010 8
+b11111110010 L
+b111101001101 5
+b111101001101 K
+b1111111000 H
+b1111111000 0
+b0 ?
+b1101110111 >
+b11111101111 =
+b11111101111 4
+b0 7
+b10110001010 6
+b11000111100 .
+b11000111100 J
+b1000011100 I
+1#
+#380000
+0#
+#390000
+b1101110111 +
+b10110001010 ,
+b10110001010 O
+b101010000101 P
+b10110001010 Q
+b1101110111 B
+b0 6
+b11 3
+b11 <
+b11000111100 >
+b10001010 /
+b10001010 G
+b101010000101 ;
+b101010000101 N
+b101011111000 2
+b101011111000 M
+b10110001010 5
+b10110001010 K
+b10111001110 D
+b11000000101 @
+b1101110111 A
+b1101110111 I
+b11000111100 J
+1#
+#400000
+0#
+#410000
+b11000111100 +
+b0 ,
+b0 O
+b11111110010 P
+b0 Q
+b11000111100 B
+b10010000010 D
+b10010000010 @
+b11000111100 A
+b11111110010 ;
+b11111110010 N
+b11111110010 2
+b11111110010 M
+b0 5
+b0 K
+b11000111100 J
+b11000111100 I
+1#
+#420000
+0#
+#430000
+b11000111100 I
+b11000111100 J
+1#
+#440000
+0#
+#450000
+b100111011111 I
+b111110000 J
+1#
+#460000
+0#
+#470000
+b11000111100 I
+b11000111100 J
+1#
+#480000
+0#
+#490000
+b100111011111 I
+b111110000 J
+1#
+#500000
+0#
+#510000
+b11000111100 I
+b11000111100 J
+1#
+#520000
+0#
+#530000
+b100111011111 I
+b111110000 J
+1#
+#540000
+0#
+#550000
+b11000111100 I
+b11000111100 J
+1#
+#560000
+0#
+#570000
+b100111011111 I
+b111110000 J
+1#
+#580000
+0#
+#590000
+b11000111100 I
+b11000111100 J
+1#
