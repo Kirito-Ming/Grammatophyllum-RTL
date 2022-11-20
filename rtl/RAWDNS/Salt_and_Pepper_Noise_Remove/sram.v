@@ -41,6 +41,12 @@ module sram #(parameter ADDR_WIDTH      =  8,
         end
     end
 
+    //wire [DATA_WIDTH - 1 :0] test_vector;
+    //wire [DATA_WIDTH - 1 :0] test_vector1;
+
+    //assign test_vector1 = wrdata_i;
+    //assign test_vector = mem[0];
+
     //reading data 
     always@(posedge rdclk)  begin
         if(rden_i) begin
