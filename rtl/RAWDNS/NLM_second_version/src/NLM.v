@@ -38,7 +38,7 @@ module NLM #(parameter                  BLOCK_RADIUS        =       2,
         parameter       WIN_SIZE                =                   ((SRH_LENGTH + 1) / 2)**2                                                   ;//49
         parameter       WEIGHT_SUM_WIDTH        =                   WEIGHT_WIDTH + $clog2(WIN_SIZE)                                             ;//14
         parameter       PIX_SUM_WIDTH           =                   WEIGHT_SUM_WIDTH + DATA_WIDTH                                               ;//26  
-        parameter       DELAY                   =                   WIN_SIZE + REF_LENGTH - BLOCK_RADIUS - WIN_RADIUS - 1                       ; 
+        parameter       DELAY                   =                   WIN_SIZE + REF_LENGTH - BLOCK_RADIUS - WIN_RADIUS + 1                       ;//47
 
         input                                                                                   en_i                                            ;
         input                                                                                   valid_i                                         ;

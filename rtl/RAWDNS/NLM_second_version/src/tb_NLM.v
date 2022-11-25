@@ -24,7 +24,7 @@ parameter FILE_PATH = "E:/HDL/Temp_NLM/src/NLM_in1080.hex";
     wire line_sync_o;
     wire frame_sync_o;
 
-    always #5 clk = ~clk;
+    always #1 clk = ~clk;
 
     initial begin
         clk = 0;
